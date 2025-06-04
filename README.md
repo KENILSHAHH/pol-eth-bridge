@@ -1,20 +1,14 @@
 # posBridge
 
-posBridge is a project designed to facilitate seamless integration between point-of-sale (POS) systems and various other services. It acts as a bridge, ensuring smooth data flow and synchronization.
-
-## Features
-
-- Connects multiple POS systems to external services.
-- Provides real-time data synchronization.
-- Supports customizable data mappings.
+Simple Demonstration of bridging POL token from Ethereum Sepolia to Polygon PoS Amoy testnet.
 
 ## Installation
 
-To install posBridge, clone the repository and install the dependencies:
+To install pos-eth-bridge, clone the repository and install the dependencies:
 
 ```bash
-git clone https://github.com/yourusername/posBridge.git
-cd posBridge
+git clone https://github.com/kenilshahh/pol-eth-bridge.git
+cd pol-eth-bridge
 npm install
 ```
 
@@ -23,24 +17,9 @@ npm install
 Run the application using:
 
 ```bash
-npm start
+node bridge.js
 ```
 
-This starts the server and begins listening for incoming POS data.
-
-## Main Components
-
-### Server Initialization
-
-This section sets up the server, configuring necessary middleware and routes to handle incoming requests from POS systems.
-
-### Data Processing
-
-Here, the incoming POS data is validated, transformed, and mapped to the required format for external services.
-
-### External Service Integration
-
-This part handles communication with third-party services, sending synchronized data and managing responses.
 
 ## Contributing
 
@@ -66,19 +45,19 @@ This project is licensed under the MIT License.
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/posBridge.git
+git clone https://github.com/kenilshahh/pol-eth-bridge.git
 cd posBridge
 ```
 
 ### 2️⃣ Install Dependencies
 
 ```bash
-npm install
+node bridge.js
 ```
 
 ### 3️⃣ Configuration
 
-- Open `bridgePOL.js`.
+- Open `bridge.js`.
 - Replace the placeholder:
 
 ```javascript
@@ -92,7 +71,7 @@ with your actual **private key** (never share it publicly).
 Run the script with:
 
 ```bash
-node bridgePOL.js
+node bridge.js
 ```
 
 ## Project Structure
