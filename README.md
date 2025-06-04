@@ -2,44 +2,6 @@
 
 Simple Demonstration of bridging POL token from Ethereum Sepolia to Polygon PoS Amoy testnet.
 
-## Installation
-
-To install pos-eth-bridge, clone the repository and install the dependencies:
-
-```bash
-git clone https://github.com/kenilshahh/pol-eth-bridge.git
-cd pol-eth-bridge
-npm install
-```
-
-## Usage
-
-Run the application using:
-
-```bash
-node bridge.js
-```
-
-
-## Contributing
-
-Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
-
-## License
-
-This project is licensed under the MIT License.
-
-# posBridge
-
-`posBridge` is a JavaScript/Node.js project designed to **bridge** POL tokens from the Ethereum Sepolia testnet to the Amoy testnet using the Polygon PoS bridge. It interacts directly with smart contracts to automate the approval and deposit process.
-
-## Features
-
-- Automated POL token approval for the Polygon bridge contract.
-- Deposits POL tokens for the user on the Amoy testnet.
-- Provides Etherscan links for transaction tracking.
-- Built-in error handling and status updates.
-
 ## Setup
 
 ### 1️⃣ Clone the Repository
