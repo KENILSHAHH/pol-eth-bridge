@@ -14,7 +14,7 @@ cd posBridge
 ### 2️⃣ Install Dependencies
 
 ```bash
-node bridge.js
+npm install
 ```
 
 ### 3️⃣ Configuration
@@ -40,12 +40,12 @@ node bridge.js
 
 | File                        | Description                                                                                       |
 |-----------------------------|---------------------------------------------------------------------------------------------------|
-| `bridgePOL.js`              | Main script that handles the approval and deposit of POL tokens.                                 |
+| `bridge.js`              | Main script that handles the approval and deposit of POL tokens.                                 |
 | `depositManagerAbi.json`    | ABI for the Deposit Manager Proxy Contract. Required for contract interactions.                   |
 
 ## Code Explanation
 
-Here’s what happens in the **`bridgePOL.js`** script:
+Here’s what happens in the **`bridge.js`** script:
 
 - **Dependencies and Config**  
   Uses `ethers.js` to connect to the Sepolia RPC, load the contract ABIs, and set up a wallet.
